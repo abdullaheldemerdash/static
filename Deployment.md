@@ -32,7 +32,7 @@ I am not using multi-AZ feature because it will cost us more money while we can 
 
 It is simple and clear from the diagram I attached as PDF document in the repo that the users will have the URL of our S3 bucket because we are not allowed to use Route53 or CDN instead of a normal registered domain URL. Their browsers requests will either be served by the S3 directly for static contents or it will go to the ALB as an interface of our Autoscaled backend webapp instances where the logic happens and the connection to the database is made.
 
-![Alt Text] https://ibb.co/4N950Ph
+<a href="https://ibb.co/4N950Ph"><img src="https://i.ibb.co/x5PRrJx/Scopic-Inventory-Arch-Diagram.png" alt="Scopic-Inventory-Arch-Diagram" border="0"></a>
 
 ### Base Cost
 
